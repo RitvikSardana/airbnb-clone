@@ -1,0 +1,49 @@
+.card{
+    margin:10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0,0,0,0.75);
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 100ms ease-in;
+}
+
+.card:hover{
+    transform: scale(1.07); /*on hover size increase*/
+
+}
+
+
+.card >img{
+    object-fit: fill;
+    min-width: 200px;
+    min-height: 200px;
+    width: 100%;
+}
+
+.card__info{
+    margin-top: -10px;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+}
+
+.card__info >h2{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.card__info >h4{
+    font-weight: 300;
+    font-size: 14px;
+    margin:8px 0px;
+}
+
+/* .card__info >h3{
+    position: absolute;
+    bottom: -525px;
+
+} */
+
+
